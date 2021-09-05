@@ -1,0 +1,24 @@
+# package files #
+*.jar
+
+# build files & compiled class files
+target/*
+*.class
+
+# log files
+*.log
+
+# virtual machine crash logs
+hs_err_pid*
+
+# intelliJ IDEA files
+.idea/*
+*.iml
+
+# all hidden files
+.*
+
+#exclude
+!.gitignore
+!doc/*.puml
+!doc/*.plantuml
